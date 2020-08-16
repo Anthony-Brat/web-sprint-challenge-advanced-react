@@ -29,19 +29,19 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain how to build stateful class components.
-Stateful class components are built by first declaring them by extending the React.Component parent class. Then you use the constructor with the super() to set up the initial state.
+   Stateful class components are built by first declaring them by extending the React.Component parent class. Then you use the constructor with the super() to set up the initial state.
 
 2. Describe the different phases of the component lifecycle.
-Mounting which is equivalent to the birth of the component. The initial data is defined and the render method is invoked.
-Updating which is the changing of props or state throughout the life of the component forcing it to call to render.
-Unmounting is when the component is removed from the screen.
+   Mounting which is equivalent to the birth of the component. The initial data is defined and the render method is invoked.
+   Updating which is the changing of props or state throughout the life of the component forcing it to call to render.
+   Unmounting is when the component is removed from the screen.
 
 3. Demonstrate an understanding of class component lifecycle methods.
-The constructor is called first and only once when the page loads and it is also used to set the initial state.
-Render is called every time react updates and commits to the DOM. Its the only required method in a class component and it is used for writing JSX for components.
+   The constructor is called first and only once when the page loads and it is also used to set the initial state.
+   Render is called every time react updates and commits to the DOM. Its the only required method in a class component and it is used for writing JSX for components.
 
 4. Define stateful logic.
-The logic that is built into a component that can handle several things such as a click event, toggle state, or formatting data before it is displayed.
+   The logic that is built into a component that can handle several things such as a click event, toggle state, or formatting data before it is displayed.
 
 5. Describe how to test a React component with React Testing Library.
 
@@ -61,22 +61,22 @@ _Please follow the setup instructions closely so that you can get everything up 
 
 **Basic set up**
 
-- [X] Create a forked copy of this project
-- [X] Add your team lead as collaborator on Github
-- [X] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [X] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Create a forked copy of this project
+- [x] Add your team lead as collaborator on Github
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
 
 **Starting the server**
 
-- [ ] Run `npm install` to download dependencies for the server.
-- [ ] Run the server using `npm start`.
-- [ ] Open a new browser tab and navigate to `http://localhost:3333/plants` - if you see a JSON object with plants data, then you know the server is running 👍
+- [X] Run `npm install` to download dependencies for the server.
+- [X] Run the server using `npm start`.
+- [X] Open a new browser tab and navigate to `http://localhost:3333/plants` - if you see a JSON object with plants data, then you know the server is running 👍
 
 **Starting the React app**
 
-- [ ] In a separate terminal cd into the `client` folder and run `npm install` to download dependencies.
-- [ ] Still inside the `client` folder run `npm run start` to run the client application.
-- [ ] Your browser should open up the project as normal
+- [X] In a separate terminal cd into the `client` folder and run `npm install` to download dependencies.
+- [X] Still inside the `client` folder run `npm run start` to run the client application.
+- [X] Your browser should open up the project as normal
 
 **Starting your test runner**
 
